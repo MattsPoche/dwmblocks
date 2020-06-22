@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	
-	{"🎵", "mpc | sed q", 20, 0},
+	{"🎵", "mpc | sed q", 0, 11 },
 	
 	{"💾", "df -h | awk '/sda4/ { print \"/home: \"$3\"/\"$2\" \"$5 }'", 60, 0 },
 
